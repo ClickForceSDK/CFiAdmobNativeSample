@@ -60,5 +60,8 @@
 #pragma mark 設定是否輸出除錯訊息
 - (void)debugInfo:(BOOL)state;
 
+- (id)initWithNlbs;
+- (id)initWithGpointNlbs:(CGPoint)origin;
+
 
 @end
