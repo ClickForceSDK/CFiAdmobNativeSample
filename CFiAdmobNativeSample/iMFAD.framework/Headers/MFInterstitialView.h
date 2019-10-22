@@ -47,6 +47,8 @@
 @property (nonatomic, copy) NSString *bannerId;
 @property(nonatomic, assign)UIViewController *rootViewController;
 @property(nonatomic, assign)id<MFInterstitialViewDelegate>delegate;
+- (id)initWithNlbs;
+- (id)initWithGpointNlbs:(CGPoint)origin;
 
 #pragma mark 取得MFInterstitial物件
 - (id)initWithGpoint:(CGPoint)origin;
@@ -59,9 +61,5 @@
 
 #pragma mark 設定是否輸出除錯訊息
 - (void)debugInfo:(BOOL)state;
-
-- (id)initWithNlbs;
-- (id)initWithGpointNlbs:(CGPoint)origin;
-
 
 @end
