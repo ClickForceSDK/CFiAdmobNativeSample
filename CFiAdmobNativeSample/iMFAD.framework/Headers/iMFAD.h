@@ -22,5 +22,5 @@ FOUNDATION_EXPORT const unsigned char iMFADVersionString[];
 #import "MFAdMaglev.h"
 #import "MFFloatHover.h"
 
-#define ClickForce_AD_SDK_VERSION @"3.4.0"
+#define ClickForce_AD_SDK_VERSION @"3.4.1"
 

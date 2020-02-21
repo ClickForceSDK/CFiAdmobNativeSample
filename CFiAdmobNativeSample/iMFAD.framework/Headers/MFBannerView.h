@@ -22,6 +22,7 @@ extern MFAdSize const MFAdSize300X250;      // use for 300 * 250
 extern MFAdSize const MFAdSize300X100;      // use for 300 * 100
 extern MFAdSize const MFAdSize200X40;      // use for 300 * 100
 extern MFAdSize const MFAdSize320X100;
+extern MFAdSize const MFAdSize336X280;     // use for 336 * 280
 
 
 
