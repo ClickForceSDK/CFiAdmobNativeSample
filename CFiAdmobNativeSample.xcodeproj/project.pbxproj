@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,14 +11,19 @@
 		48676EE8232386E100FF8F81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48676EE7232386E100FF8F81 /* ViewController.m */; };
 		48676EEB232386E100FF8F81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48676EE9232386E100FF8F81 /* Main.storyboard */; };
 		48676EED232386E400FF8F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48676EEC232386E400FF8F81 /* Assets.xcassets */; };
-		48676EF0232386E400FF8F81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48676EEE232386E400FF8F81 /* LaunchScreen.storyboard */; };
 		48676EF3232386E400FF8F81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48676EF2232386E400FF8F81 /* main.m */; };
 		48676EFD232386E400FF8F81 /* CFiAdmobNativeSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48676EFC232386E400FF8F81 /* CFiAdmobNativeSampleTests.m */; };
 		48676F08232386E400FF8F81 /* CFiAdmobNativeSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48676F07232386E400FF8F81 /* CFiAdmobNativeSampleUITests.m */; };
-		48676F542323891F00FF8F81 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48676F532323891F00FF8F81 /* GoogleMobileAds.framework */; };
 		48676F562323893A00FF8F81 /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48676F552323893A00FF8F81 /* iMFAD.framework */; };
-		48676F5B2323895A00FF8F81 /* AdMobNativeCustomAD.m in Sources */ = {isa = PBXBuildFile; fileRef = 48676F572323895A00FF8F81 /* AdMobNativeCustomAD.m */; };
-		48676F5C2323895A00FF8F81 /* CfUnifiedNativeAdMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48676F592323895A00FF8F81 /* CfUnifiedNativeAdMapper.m */; };
+		48BB41E22A7FDBE500C3B2A2 /* AdMobCustomAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BB41E12A7FDBE500C3B2A2 /* AdMobCustomAdapter.m */; };
+		48BB41E52A7FE19100C3B2A2 /* AdMobNativeCustomAD.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BB41E42A7FE19100C3B2A2 /* AdMobNativeCustomAD.m */; };
+		48BB41ED2A7FE2F900C3B2A2 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BB41E72A7FE2F900C3B2A2 /* GoogleMobileAds.xcframework */; };
+		48BB41EE2A7FE2F900C3B2A2 /* GoogleAppMeasurementIdentitySupport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BB41E82A7FE2F900C3B2A2 /* GoogleAppMeasurementIdentitySupport.xcframework */; };
+		48BB41EF2A7FE2F900C3B2A2 /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BB41E92A7FE2F900C3B2A2 /* GoogleAppMeasurement.xcframework */; };
+		48BB41F02A7FE2F900C3B2A2 /* UserMessagingPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BB41EA2A7FE2F900C3B2A2 /* UserMessagingPlatform.xcframework */; };
+		48BB41F12A7FE2F900C3B2A2 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BB41EB2A7FE2F900C3B2A2 /* GoogleUtilities.xcframework */; };
+		48BB41F22A7FE2F900C3B2A2 /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BB41EC2A7FE2F900C3B2A2 /* nanopb.xcframework */; };
+		48BB41F42A7FE72300C3B2A2 /* FBLPromises.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BB41F32A7FE72300C3B2A2 /* FBLPromises.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +51,6 @@
 		48676EE7232386E100FF8F81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		48676EEA232386E100FF8F81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48676EEC232386E400FF8F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		48676EEF232386E400FF8F81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48676EF1232386E400FF8F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48676EF2232386E400FF8F81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48676EF8232386E400FF8F81 /* CFiAdmobNativeSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFiAdmobNativeSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,12 +59,18 @@
 		48676F03232386E400FF8F81 /* CFiAdmobNativeSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFiAdmobNativeSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48676F07232386E400FF8F81 /* CFiAdmobNativeSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFiAdmobNativeSampleUITests.m; sourceTree = "<group>"; };
 		48676F09232386E400FF8F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48676F532323891F00FF8F81 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = CFiAdmobNativeSample/GoogleMobileAds.framework; sourceTree = "<group>"; };
-		48676F552323893A00FF8F81 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iMFAD.framework; path = CFiAdmobNativeSample/iMFAD.framework; sourceTree = "<group>"; };
-		48676F572323895A00FF8F81 /* AdMobNativeCustomAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdMobNativeCustomAD.m; sourceTree = "<group>"; };
-		48676F582323895A00FF8F81 /* CfUnifiedNativeAdMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CfUnifiedNativeAdMapper.h; sourceTree = "<group>"; };
-		48676F592323895A00FF8F81 /* CfUnifiedNativeAdMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CfUnifiedNativeAdMapper.m; sourceTree = "<group>"; };
-		48676F5A2323895A00FF8F81 /* AdMobNativeCustomAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobNativeCustomAD.h; sourceTree = "<group>"; };
+		48676F552323893A00FF8F81 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
+		48BB41E02A7FDBE500C3B2A2 /* AdMobCustomAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobCustomAdapter.h; sourceTree = "<group>"; };
+		48BB41E12A7FDBE500C3B2A2 /* AdMobCustomAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdMobCustomAdapter.m; sourceTree = "<group>"; };
+		48BB41E32A7FE19100C3B2A2 /* AdMobNativeCustomAD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdMobNativeCustomAD.h; sourceTree = "<group>"; };
+		48BB41E42A7FE19100C3B2A2 /* AdMobNativeCustomAD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdMobNativeCustomAD.m; sourceTree = "<group>"; };
+		48BB41E72A7FE2F900C3B2A2 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMobileAds.xcframework; path = CFiAdmobNativeSample/GoogleMobileAds.xcframework; sourceTree = "<group>"; };
+		48BB41E82A7FE2F900C3B2A2 /* GoogleAppMeasurementIdentitySupport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurementIdentitySupport.xcframework; path = CFiAdmobNativeSample/GoogleAppMeasurementIdentitySupport.xcframework; sourceTree = "<group>"; };
+		48BB41E92A7FE2F900C3B2A2 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurement.xcframework; path = CFiAdmobNativeSample/GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		48BB41EA2A7FE2F900C3B2A2 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = UserMessagingPlatform.xcframework; path = CFiAdmobNativeSample/UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
+		48BB41EB2A7FE2F900C3B2A2 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleUtilities.xcframework; path = CFiAdmobNativeSample/GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		48BB41EC2A7FE2F900C3B2A2 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = nanopb.xcframework; path = CFiAdmobNativeSample/nanopb.xcframework; sourceTree = "<group>"; };
+		48BB41F32A7FE72300C3B2A2 /* FBLPromises.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBLPromises.xcframework; path = CFiAdmobNativeSample/FBLPromises.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +78,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48BB41F42A7FE72300C3B2A2 /* FBLPromises.xcframework in Frameworks */,
+				48BB41ED2A7FE2F900C3B2A2 /* GoogleMobileAds.xcframework in Frameworks */,
+				48BB41EE2A7FE2F900C3B2A2 /* GoogleAppMeasurementIdentitySupport.xcframework in Frameworks */,
+				48BB41EF2A7FE2F900C3B2A2 /* GoogleAppMeasurement.xcframework in Frameworks */,
+				48BB41F02A7FE2F900C3B2A2 /* UserMessagingPlatform.xcframework in Frameworks */,
+				48BB41F12A7FE2F900C3B2A2 /* GoogleUtilities.xcframework in Frameworks */,
+				48BB41F22A7FE2F900C3B2A2 /* nanopb.xcframework in Frameworks */,
 				48676F562323893A00FF8F81 /* iMFAD.framework in Frameworks */,
-				48676F542323891F00FF8F81 /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,12 +109,11 @@
 		48676ED7232386E000FF8F81 = {
 			isa = PBXGroup;
 			children = (
-				48676F552323893A00FF8F81 /* iMFAD.framework */,
-				48676F532323891F00FF8F81 /* GoogleMobileAds.framework */,
 				48676EE2232386E100FF8F81 /* CFiAdmobNativeSample */,
 				48676EFB232386E400FF8F81 /* CFiAdmobNativeSampleTests */,
 				48676F06232386E400FF8F81 /* CFiAdmobNativeSampleUITests */,
 				48676EE1232386E100FF8F81 /* Products */,
+				48BB41E62A7FE2F900C3B2A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,17 +130,17 @@
 		48676EE2232386E100FF8F81 /* CFiAdmobNativeSample */ = {
 			isa = PBXGroup;
 			children = (
-				48676F5A2323895A00FF8F81 /* AdMobNativeCustomAD.h */,
-				48676F572323895A00FF8F81 /* AdMobNativeCustomAD.m */,
-				48676F582323895A00FF8F81 /* CfUnifiedNativeAdMapper.h */,
-				48676F592323895A00FF8F81 /* CfUnifiedNativeAdMapper.m */,
+				48676F552323893A00FF8F81 /* iMFAD.framework */,
+				48BB41E02A7FDBE500C3B2A2 /* AdMobCustomAdapter.h */,
+				48BB41E12A7FDBE500C3B2A2 /* AdMobCustomAdapter.m */,
+				48BB41E32A7FE19100C3B2A2 /* AdMobNativeCustomAD.h */,
+				48BB41E42A7FE19100C3B2A2 /* AdMobNativeCustomAD.m */,
 				48676EE3232386E100FF8F81 /* AppDelegate.h */,
 				48676EE4232386E100FF8F81 /* AppDelegate.m */,
 				48676EE6232386E100FF8F81 /* ViewController.h */,
 				48676EE7232386E100FF8F81 /* ViewController.m */,
 				48676EE9232386E100FF8F81 /* Main.storyboard */,
 				48676EEC232386E400FF8F81 /* Assets.xcassets */,
-				48676EEE232386E400FF8F81 /* LaunchScreen.storyboard */,
 				48676EF1232386E400FF8F81 /* Info.plist */,
 				48676EF2232386E400FF8F81 /* main.m */,
 			);
@@ -148,6 +163,20 @@
 				48676F09232386E400FF8F81 /* Info.plist */,
 			);
 			path = CFiAdmobNativeSampleUITests;
+			sourceTree = "<group>";
+		};
+		48BB41E62A7FE2F900C3B2A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48BB41F32A7FE72300C3B2A2 /* FBLPromises.xcframework */,
+				48BB41E92A7FE2F900C3B2A2 /* GoogleAppMeasurement.xcframework */,
+				48BB41E82A7FE2F900C3B2A2 /* GoogleAppMeasurementIdentitySupport.xcframework */,
+				48BB41E72A7FE2F900C3B2A2 /* GoogleMobileAds.xcframework */,
+				48BB41EB2A7FE2F900C3B2A2 /* GoogleUtilities.xcframework */,
+				48BB41EC2A7FE2F900C3B2A2 /* nanopb.xcframework */,
+				48BB41EA2A7FE2F900C3B2A2 /* UserMessagingPlatform.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +282,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48676EF0232386E400FF8F81 /* LaunchScreen.storyboard in Resources */,
 				48676EED232386E400FF8F81 /* Assets.xcassets in Resources */,
 				48676EEB232386E100FF8F81 /* Main.storyboard in Resources */,
 			);
@@ -282,8 +310,8 @@
 			files = (
 				48676EE8232386E100FF8F81 /* ViewController.m in Sources */,
 				48676EF3232386E400FF8F81 /* main.m in Sources */,
-				48676F5B2323895A00FF8F81 /* AdMobNativeCustomAD.m in Sources */,
-				48676F5C2323895A00FF8F81 /* CfUnifiedNativeAdMapper.m in Sources */,
+				48BB41E22A7FDBE500C3B2A2 /* AdMobCustomAdapter.m in Sources */,
+				48BB41E52A7FE19100C3B2A2 /* AdMobNativeCustomAD.m in Sources */,
 				48676EE5232386E100FF8F81 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,14 +354,6 @@
 				48676EEA232386E100FF8F81 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		48676EEE232386E400FF8F81 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48676EEF232386E400FF8F81 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -457,6 +477,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CFiAdmobNativeSample",
@@ -482,6 +503,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CFiAdmobNativeSample",

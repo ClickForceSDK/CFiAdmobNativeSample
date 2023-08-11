@@ -10,9 +10,9 @@
 @import GoogleMobileAds;
 @import iMFAD;
 
-@interface ViewController : UIViewController<GADUnifiedNativeAdDelegate,GADUnifiedNativeAdLoaderDelegate,GADMediationAd>{
+@interface ViewController : UIViewController <GADNativeAdLoaderDelegate, GADNativeAdDelegate>{
     GADAdLoader *adLoader;
-    GADUnifiedNativeAdView *nativeAdview;
+    GADNativeAdView *nativeAdview;
     UIImageView *iconView;
     UILabel *Adtittle;
     UILabel *Advertiser;
